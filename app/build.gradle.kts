@@ -342,7 +342,7 @@ aboutLibraries {
     }
     library {
         exclusionPatterns = listOf(
-            Pattern.compile("^com\\.github\\.TeamNewPipe:NewPipeExtractor$"),
+            Pattern.compile("^com\\.github\\.(TeamNewPipe|menipdf-svg):NewPipeExtractor$"),
             Pattern.compile("^com\\.evernote:android-state$")
         )
     }
